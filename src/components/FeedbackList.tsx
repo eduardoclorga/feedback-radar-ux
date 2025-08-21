@@ -11,9 +11,8 @@ interface FeedbackListProps {
 }
 
 export const FeedbackList = ({ feedbacks, filterRating }: FeedbackListProps) => {
-  const filteredFeedbacks = filterRating 
-    ? feedbacks.filter(f => f.rating >= filterRating)
-    : feedbacks;
+  // Feedbacks are already filtered by the parent component
+  const filteredFeedbacks = feedbacks;
 
   const getRatingColor = (rating: number) => {
     if (rating >= 4) return 'bg-radar-secondary text-accent-foreground';
