@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				radar: {
+					primary: 'hsl(var(--radar-primary))',
+					'primary-light': 'hsl(var(--radar-primary-light))',
+					secondary: 'hsl(var(--radar-secondary))',
+					dark: 'hsl(var(--radar-dark))',
+					light: 'hsl(var(--radar-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
